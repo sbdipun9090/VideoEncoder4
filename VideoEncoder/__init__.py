@@ -14,7 +14,7 @@ api_hash = "5c9541eefe8452186e9649e2effc1f3f"
 
 try:
     bot_token = config("BOT_TOKEN", default=None)
-    mongo = config("MONGO_URL", default="mongodb+srv://sbdipun:sbdipun@cluster0.zjdir.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+    mongo = config("MONGO_URL", default= "mongodb+srv://s1com:s1com@cluster0.wrrwz.mongodb.net/Cluster0?retryWrites=true&w=majority")
 except Exception as e:
     logging.warning(e)
     exit(0)
