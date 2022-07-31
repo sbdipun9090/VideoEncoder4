@@ -9,8 +9,8 @@ logging.basicConfig(
 )
 
 # Basics
-api_id = 6
-api_hash = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+api_id = 7405235
+api_hash = "5c9541eefe8452186e9649e2effc1f3f"
 
 try:
     bot_token = config("BOT_TOKEN", default=None)
